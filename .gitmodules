@@ -1,0 +1,3 @@
+[submodule "app/src/main/cpp/HWCPipe"]
+	path = app/src/main/cpp/HWCPipe
+	url = git@github.com:ARM-software/HWCPipe.git
