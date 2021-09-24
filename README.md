@@ -4,6 +4,14 @@ ARM® HWCPipe Exporter is a [Prometheus exporter](https://prometheus.io/docs/ins
 
 ## Quickstart
 
+- Double check that your Android Device is using an ARM based SOC such as [Samsung Exynos](https://en.wikipedia.org/wiki/Exynos)
+
+- Enable profiling on the device as some devices may disable it by default
+
+  ```shell
+  $ adb shell setprop security.perf_harden 0
+  ```
+
 - Install HWCPipe Exporter
 
   ```shell
@@ -20,7 +28,7 @@ ARM® HWCPipe Exporter is a [Prometheus exporter](https://prometheus.io/docs/ins
 
 - Install and configure Prometheus
 
-  An example of [Prometheus configuration](https://prometheus.io/docs/prometheus/latest/configuration/configuration/) file named prometheus.yml can be as simple as follows
+  An example of [Prometheus configuration](https://prometheus.io/docs/prometheus/latest/configuration/configuration/) file named `prometheus.yml` can be as simple as follows
 
   ```yaml
   global:
