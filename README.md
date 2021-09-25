@@ -1,4 +1,4 @@
-# ARM® HWCPipe Exporter
+# ARM® HWCPipe Exporter [![Android CI](https://github.com/ylz-at/arm-hwcpipe-exporter/actions/workflows/android.yml/badge.svg)](https://github.com/ylz-at/arm-hwcpipe-exporter/actions/workflows/android.yml)
 
 ARM® HWCPipe Exporter is a [Prometheus exporter](https://prometheus.io/docs/instrumenting/exporters/) written in Java and C++ that retrieves metrics from Android devices running on ARM® Hardware components and exports them to the [Prometheus](https://prometheus.io/) monitoring system.
 
