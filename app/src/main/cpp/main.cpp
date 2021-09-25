@@ -1,7 +1,6 @@
 #include <jni.h>
 #include <string>
 #include <unordered_map>
-#include <map>
 #include <hwcpipe.h>
 #include <mutex>
 
