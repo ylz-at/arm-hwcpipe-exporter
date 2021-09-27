@@ -1,4 +1,5 @@
 # ARM® HWCPipe Exporter [![Android CI](https://github.com/ylz-at/arm-hwcpipe-exporter/actions/workflows/android.yml/badge.svg)](https://github.com/ylz-at/arm-hwcpipe-exporter/actions/workflows/android.yml)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fylz-at%2Farm-hwcpipe-exporter.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fylz-at%2Farm-hwcpipe-exporter?ref=badge_shield)
 
 ARM® HWCPipe Exporter is a [Prometheus exporter](https://prometheus.io/docs/instrumenting/exporters/) written in Java and C++ that retrieves metrics from Android devices running on ARM® Hardware components and exports them to the [Prometheus](https://prometheus.io/) monitoring system.
 
@@ -115,3 +116,6 @@ If you encounter a problem, please report it as an [issue on GitHub](https://git
 
 This package is licensed under [The MIT License](https://mit-license.org/).
 
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fylz-at%2Farm-hwcpipe-exporter.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fylz-at%2Farm-hwcpipe-exporter?ref=badge_large)
